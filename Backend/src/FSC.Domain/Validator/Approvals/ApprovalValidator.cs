@@ -1,6 +1,6 @@
-using FSC.Domain.Models.Approvals;
+using DE.Domain.Models.Approvals;
 
-namespace FSC.Domain.Validator.Approvals;
+namespace DE.Domain.Validator.Approvals;
 
 public class ApprovalValidator : AbstractValidator<Approval>
 {

@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
-using FSC.API.Controllers.Common;
-using FSC.Application.Commands.Attachments;
-using FSC.Application.Models.Dtos.Attachments.Request;
-using FSC.Application.Models.Dtos.Attachments.Response;
-using FSC.Application.Queries.Attachments;
+using DE.API.Controllers.Common;
+using DE.Application.Commands.Attachments;
+using DE.Application.Models.Dtos.Attachments.Request;
+using DE.Application.Models.Dtos.Attachments.Response;
+using DE.Application.Queries.Attachments;
 
-namespace FSC.API.Controllers.V1._0.Attachments;
+namespace DE.API.Controllers.V1._0.Attachments;
 
 public class AttachmentController: BaseController
 {

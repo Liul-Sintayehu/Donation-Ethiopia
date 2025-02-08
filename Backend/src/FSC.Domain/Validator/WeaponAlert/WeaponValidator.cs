@@ -1,6 +1,6 @@
-using FSC.Domain.Models.WeaponAlert;
+using DE.Domain.Models.WeaponAlert;
 
-namespace FSC.Domain.Validator.WeaponAlert
+namespace DE.Domain.Validator.WeaponAlert
 {
     public class WeaponValidator : AbstractValidator<Weapon>
     {

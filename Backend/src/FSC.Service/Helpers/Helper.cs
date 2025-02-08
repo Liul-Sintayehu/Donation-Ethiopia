@@ -1,4 +1,4 @@
-namespace FSC.AlertEscalationService.Helpers;
+namespace DE.AlertEscalationService.Helpers;
 
 public static class Helper
 {

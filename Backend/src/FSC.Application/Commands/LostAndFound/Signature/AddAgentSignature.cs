@@ -1,8 +1,8 @@
-using FSC.Application.Models.Dtos.LostAndFound.Request;
-using FSC.Application.Services.Helper;
-using FSC.Domain.Models.LostAndFound;
+using DE.Application.Models.Dtos.LostAndFound.Request;
+using DE.Application.Services.Helper;
+using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Commands.LostAndFound.Signature;
+namespace DE.Application.Commands.LostAndFound.Signature;
 
 public record AddAgentSignature(long Id, AddAgentSignatureRequestDto Dto): IRequest<OperationResult<bool>>;
 

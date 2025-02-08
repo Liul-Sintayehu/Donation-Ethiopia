@@ -1,6 +1,6 @@
-using FSC.Domain.Validator.Attachments;
+using DE.Domain.Validator.Attachments;
 
-namespace FSC.Domain.Models.Attachments;
+namespace DE.Domain.Models.Attachments;
 
 public class Attachment: BaseEntity
 {

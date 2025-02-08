@@ -1,11 +1,11 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FSC.Domain.Validator.Master
+namespace DE.Domain.Validator.Master
 {
     public class EmployeeValidator : AbstractValidator<Employee>
     {

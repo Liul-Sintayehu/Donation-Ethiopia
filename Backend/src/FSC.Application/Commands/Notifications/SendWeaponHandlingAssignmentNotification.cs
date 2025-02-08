@@ -1,7 +1,7 @@
-using FSC.Domain.Models.Master;
-using FSC.Domain.Models.Notifications;
+using DE.Domain.Models.Master;
+using DE.Domain.Models.Notifications;
 
-namespace FSC.Application.Commands.Notifications;
+namespace DE.Application.Commands.Notifications;
 
 public record SendWeaponHandlingAssignmentNotificationCommand(FlightSchedule FlightSchedule, Employee AssignedEmployee)
     : IRequest<bool>;

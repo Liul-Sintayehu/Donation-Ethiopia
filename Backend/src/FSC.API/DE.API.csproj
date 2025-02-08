@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FSC.Application\FSC.Application.csproj" />
+    <ProjectReference Include="..\FSC.Application\DE.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

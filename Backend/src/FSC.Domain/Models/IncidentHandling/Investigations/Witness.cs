@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FSC.Domain.Models.IncidentHandling.Investigations;
+namespace DE.Domain.Models.IncidentHandling.Investigations;
 
 public class Witness : BaseEntity
 {

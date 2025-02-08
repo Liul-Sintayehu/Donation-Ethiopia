@@ -1,8 +1,8 @@
-using FSC.Application.Models.Dtos.Dashboard.Request;
-using FSC.Application.Models.Dtos.Dashboard.Response;
-using FSC.Domain.Models.EmployeeAssignments;
+using DE.Application.Models.Dtos.Dashboard.Request;
+using DE.Application.Models.Dtos.Dashboard.Response;
+using DE.Domain.Models.EmployeeAssignments;
 
-namespace FSC.Application.Queries.Dashboard;
+namespace DE.Application.Queries.Dashboard;
 
 public record EscortDashboardQuery(EscortDashboardRequestDto Dto): IRequest<OperationResult<List<EscortDashboardResponseDto>>>;
 

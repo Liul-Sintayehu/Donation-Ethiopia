@@ -1,23 +1,23 @@
-// using FSC.Application.Models.Dtos.CrewManager;
-// using FSC.Application.Models.Dtos.SapDataTables;
-using FSC.Domain.Models.Approvals;
-using FSC.Domain.Models.Assignment;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Models.EmployeeAssignments;
-using FSC.Domain.Models.IncidentHandling.Incidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.AirCraftIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.InjuryIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.VehicleIncidents;
-using FSC.Domain.Models.IncidentHandling.Investigations;
-using FSC.Domain.Models.LostAndFound;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Models.Notifications;
-using FSC.Domain.Models.OffloadBaggages;
-using FSC.Domain.Models.WeaponAlert;
+// using DE.Application.Models.Dtos.CrewManager;
+// using DE.Application.Models.Dtos.SapDataTables;
+using DE.Domain.Models.Approvals;
+using DE.Domain.Models.Assignment;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Models.EmployeeAssignments;
+using DE.Domain.Models.IncidentHandling.Incidents;
+using DE.Domain.Models.IncidentHandling.Incidents.AirCraftIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.InjuryIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.VehicleIncidents;
+using DE.Domain.Models.IncidentHandling.Investigations;
+using DE.Domain.Models.LostAndFound;
+using DE.Domain.Models.Master;
+using DE.Domain.Models.Notifications;
+using DE.Domain.Models.OffloadBaggages;
+using DE.Domain.Models.WeaponAlert;
 
-namespace FSC.API.Registrars
+namespace DE.API.Registrars
 {
     public class RepositoryRegistrar : IWebApplicationBuilderRegistrar
     {

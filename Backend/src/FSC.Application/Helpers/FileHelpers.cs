@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Net.Http.Headers;
 
-namespace FSC.Application.Helpers
+namespace DE.Application.Helpers
 {
     public static class FileHelpers
     {

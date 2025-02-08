@@ -1,4 +1,4 @@
-namespace FSC.Application.Models.Dtos.Dashboard.Request;
+namespace DE.Application.Models.Dtos.Dashboard.Request;
 
 public class EscortDashboardRequestDto
 {

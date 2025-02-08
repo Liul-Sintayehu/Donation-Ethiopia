@@ -1,5 +1,5 @@
-﻿using FSC.Domain.Validator.Master;
-namespace FSC.Domain.Models.Master
+﻿using DE.Domain.Validator.Master;
+namespace DE.Domain.Models.Master
 {
     public class Position(string name, string description) : BaseEntity
     {

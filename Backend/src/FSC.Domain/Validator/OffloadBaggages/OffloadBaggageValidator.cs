@@ -1,6 +1,6 @@
-using FSC.Domain.Models.OffloadBaggages;
+using DE.Domain.Models.OffloadBaggages;
 
-namespace FSC.Domain.Validator.OffloadBaggages;
+namespace DE.Domain.Validator.OffloadBaggages;
 
 public class OffloadBaggageValidator: AbstractValidator<OffloadBaggage>
 {

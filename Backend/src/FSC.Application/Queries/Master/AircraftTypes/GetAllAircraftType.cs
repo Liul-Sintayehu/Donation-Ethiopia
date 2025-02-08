@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Application.Queries.Master.AircraftTypes
+namespace DE.Application.Queries.Master.AircraftTypes
 {
     public record GetAllAircraftType(RecordStatus? RecordStatus) : IRequest<OperationResult<List<AircraftType>>>;
     internal class GetAllAircraftTypeHandler(IRepositoryBase<AircraftType> aircraftTypeRepo)

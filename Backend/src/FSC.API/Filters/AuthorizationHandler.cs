@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc.Controllers;
 
-namespace FSC.API.Filters;
+namespace DE.API.Filters;
 
 public class AuthorizationHandler(IHttpContextAccessor httpContextAccessor, IIdentityService identityService)
     : IAuthorizationFilter
 {
     // Env Variable Handling
-    private static readonly string? EnvironmentVariable = Environment.GetEnvironmentVariable("FSC");
+    private static readonly string? EnvironmentVariable = Environment.GetEnvironmentVariable("DE");
 
     private static readonly long ServiceId =
         string.IsNullOrEmpty(EnvironmentVariable) ? 29 : Convert.ToInt64(EnvironmentVariable);

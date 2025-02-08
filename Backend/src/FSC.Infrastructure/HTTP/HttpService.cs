@@ -1,12 +1,12 @@
 ﻿using System.Net.Http.Headers;
 using System.Text;
-using FSC.Infrastructure.HTTP.Models;
+using DE.Infrastructure.HTTP.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using static System.GC;
 
-namespace FSC.Infrastructure.HTTP;
+namespace DE.Infrastructure.HTTP;
 
 public class HttpService(
     IHttpClientFactory httpClient,
@@ -26,7 +26,7 @@ public class HttpService(
     {
         try
         {
-            var client = httpClient.CreateClient("FSCServiceAPI");
+            var client = httpClient.CreateClient("DEServiceAPI");
             client.DefaultRequestHeaders.Clear();
             var message = new HttpRequestMessage();
             message.Headers.Add("Accept", "application/json");

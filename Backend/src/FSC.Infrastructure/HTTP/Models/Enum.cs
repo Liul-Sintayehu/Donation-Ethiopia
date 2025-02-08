@@ -1,4 +1,4 @@
-﻿namespace FSC.Infrastructure.HTTP.Models
+﻿namespace DE.Infrastructure.HTTP.Models
 {
     public enum ApiType
     {

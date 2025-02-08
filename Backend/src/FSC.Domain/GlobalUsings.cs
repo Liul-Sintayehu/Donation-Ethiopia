@@ -1,4 +1,4 @@
 ﻿global using FluentValidation;
-global using FSC.Domain.Models;
-global using FSC.Domain.Common;
-global using FSC.Domain.Validator;
+global using DE.Domain.Models;
+global using DE.Domain.Common;
+global using DE.Domain.Validator;

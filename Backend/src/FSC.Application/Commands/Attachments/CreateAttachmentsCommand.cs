@@ -1,8 +1,8 @@
-using FSC.Application.Models.Dtos.Attachments.Request;
-using FSC.Application.Services.Helper;
-using FSC.Domain.Models.Attachments;
+using DE.Application.Models.Dtos.Attachments.Request;
+using DE.Application.Services.Helper;
+using DE.Domain.Models.Attachments;
 
-namespace FSC.Application.Commands.Attachments;
+namespace DE.Application.Commands.Attachments;
 
 public record CreateAttachmentsCommand(CreateAttachmentRequestDto Dto):IRequest<OperationResult<bool>>;
 

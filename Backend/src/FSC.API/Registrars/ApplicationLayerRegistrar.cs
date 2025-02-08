@@ -1,9 +1,9 @@
-﻿// using FSC.Application.Commands.Master.CostCenters;
-using FSC.Application.Services.Helper;
-using FSC.Application.Services.UnitOfWork;
-using FSC.Infrastructure.HTTP;
+﻿// using DE.Application.Commands.Master.CostCenters;
+using DE.Application.Services.Helper;
+using DE.Application.Services.UnitOfWork;
+using DE.Infrastructure.HTTP;
 
-namespace FSC.API.Registrars
+namespace DE.API.Registrars
 {
     public class ApplicationLayerRegistrar : IWebApplicationBuilderRegistrar
     {

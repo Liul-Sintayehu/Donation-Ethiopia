@@ -1,4 +1,4 @@
-﻿namespace FSC.Domain.Models;
+﻿namespace DE.Domain.Models;
 
 public class AuditEventLog
 {

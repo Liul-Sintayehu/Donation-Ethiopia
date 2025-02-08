@@ -1,4 +1,4 @@
-namespace FSC.Domain.Helpers;
+namespace DE.Domain.Helpers;
 
 public static class Helper
 {

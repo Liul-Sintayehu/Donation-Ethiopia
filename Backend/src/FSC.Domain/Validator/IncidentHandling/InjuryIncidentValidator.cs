@@ -1,6 +1,6 @@
-using FSC.Domain.Models.IncidentHandling.Incidents.InjuryIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.InjuryIncidents;
 
-namespace FSC.Domain.Validator.IncidentHandling;
+namespace DE.Domain.Validator.IncidentHandling;
 
 public class InjuryIncidentValidator: AbstractValidator<InjuryIncident>
 {

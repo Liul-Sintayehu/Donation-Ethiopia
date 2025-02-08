@@ -1,8 +1,8 @@
-using FSC.Application.Models.Dtos.LostAndFound.Request;
-using FSC.Domain.Models.LostAndFound;
+using DE.Application.Models.Dtos.LostAndFound.Request;
+using DE.Domain.Models.LostAndFound;
 using OfficeOpenXml;
 
-namespace FSC.Application.Queries.LostAndFound;
+namespace DE.Application.Queries.LostAndFound;
 
 public record ExportLostAndFoundByQuery(GetLostAndFoundItemsQueryDto Dto) : IRequest<OperationResult<byte[]>>;
 

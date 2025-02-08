@@ -1,8 +1,8 @@
 using System.Reflection;
-using FSC.API.Controllers.Common;
+using DE.API.Controllers.Common;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FSC.API.Controllers.V1._0.Seeders;
+namespace DE.API.Controllers.V1._0.Seeders;
 
 public class IdentityActionsController(IIdentityService identityService) : BaseController
 {

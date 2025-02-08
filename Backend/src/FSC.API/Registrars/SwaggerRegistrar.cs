@@ -1,5 +1,5 @@
 ﻿
-namespace FSC.API.Registrars
+namespace DE.API.Registrars
 {
     public class SwaggerRegistrar : IWebApplicationBuilderRegistrar
     {

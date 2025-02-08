@@ -1,4 +1,4 @@
-namespace FSC.Application.Models.Dtos.Master;
+namespace DE.Application.Models.Dtos.Master;
 
 public class PositionDetailDto
 {

@@ -1,4 +1,4 @@
-namespace FSC.Application.Models.Dtos.LostAndFound.Response;
+namespace DE.Application.Models.Dtos.LostAndFound.Response;
 
 public class LostAndFoundItemsPaginatedResponseDto
 {

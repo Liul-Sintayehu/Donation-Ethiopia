@@ -1,10 +1,10 @@
-﻿using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.Assignment;
+﻿using DE.Domain.Models.Master;
+using DE.Domain.Validator.Assignment;
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.Approvals;
+using DE.Domain.Helpers;
+using DE.Domain.Models.Approvals;
 
-namespace FSC.Domain.Models.Assignment
+namespace DE.Domain.Models.Assignment
 {
     public class MajorFlightTaskAssignment : BaseEntity
     {

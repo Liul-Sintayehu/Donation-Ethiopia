@@ -1,6 +1,6 @@
-using FSC.Domain.Models.LostAndFound;
+using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Commands.LostAndFound.Signature;
+namespace DE.Application.Commands.LostAndFound.Signature;
 
 public record RemoveAgentSignature(long Id) : IRequest<OperationResult<bool>>;
 

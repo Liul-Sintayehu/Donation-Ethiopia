@@ -1,7 +1,7 @@
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
+using DE.Domain.Helpers;
+using DE.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
 
-namespace FSC.Domain.Validator.IncidentHandling;
+namespace DE.Domain.Validator.IncidentHandling;
 
 public class BaggageIncidentValidation: AbstractValidator<BaggageIncident>
 {

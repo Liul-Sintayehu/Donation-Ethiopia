@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.Master;
+using DE.Domain.Helpers;
+using DE.Domain.Models.Master;
 
-namespace FSC.Domain.Models.WeaponAlert;
+namespace DE.Domain.Models.WeaponAlert;
 
 public class WeaponHandling : BaseEntity
 {

@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Domain.Validator
+namespace DE.Domain.Validator
 {
     public class CostCenterValidator : AbstractValidator<CostCenter>
     {

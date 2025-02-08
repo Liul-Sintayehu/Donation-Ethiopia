@@ -1,7 +1,7 @@
-﻿using FSC.Domain.Validator.Master;
+﻿using DE.Domain.Validator.Master;
 using System.ComponentModel.DataAnnotations;
 
-namespace FSC.Domain.Models.Master;
+namespace DE.Domain.Models.Master;
 
 public class Employee : BaseEntity
 {

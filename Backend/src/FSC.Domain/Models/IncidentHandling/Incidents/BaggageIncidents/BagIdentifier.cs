@@ -1,4 +1,4 @@
-namespace FSC.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
+namespace DE.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
 
 public class BagIdentifier
 {

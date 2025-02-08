@@ -1,10 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Validator.IncidentHandling;
-using Severity = FSC.Domain.Common.Severity;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Validator.IncidentHandling;
+using Severity = DE.Domain.Common.Severity;
 
-namespace FSC.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
+namespace DE.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
 
 public class TheftIncident : Incident
 {

@@ -1,5 +1,5 @@
-﻿using FSC.Domain.Models.Notifications;
-namespace FSC.Domain.Validator.Notifications
+﻿using DE.Domain.Models.Notifications;
+namespace DE.Domain.Validator.Notifications
 {
     public class NotificationValidator : AbstractValidator<Notification>
     {

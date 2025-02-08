@@ -1,6 +1,6 @@
-using FSC.Domain.Models.Attachments;
+using DE.Domain.Models.Attachments;
 
-namespace FSC.Application.Queries.Attachments;
+namespace DE.Application.Queries.Attachments;
 
 public record GetAttachmentsByRelatedEntityId(long RelatedEntityId, EntityType RelatedEntityType)
     : IRequest<List<Attachment>>;

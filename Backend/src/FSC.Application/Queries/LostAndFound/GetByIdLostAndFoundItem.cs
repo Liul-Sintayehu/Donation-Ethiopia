@@ -1,7 +1,7 @@
-﻿using FSC.Application.Queries.Attachments;
-using FSC.Domain.Models.LostAndFound;
+﻿using DE.Application.Queries.Attachments;
+using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Queries.LostAndFound
+namespace DE.Application.Queries.LostAndFound
 {
     public record GetByIdLostAndFoundItem(long Id) : IRequest<OperationResult<LostAndFoundItem>>;
 

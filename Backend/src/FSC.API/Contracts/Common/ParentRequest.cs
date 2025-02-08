@@ -1,4 +1,4 @@
-﻿namespace FSC.API.Contracts.Common;
+﻿namespace DE.API.Contracts.Common;
 
 public class ParentRequest
 {

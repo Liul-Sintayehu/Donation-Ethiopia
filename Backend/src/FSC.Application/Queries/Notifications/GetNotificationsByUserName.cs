@@ -1,9 +1,9 @@
 using AutoMapper;
-using FSC.Application.Models.Dtos.Notifications.Response;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Models.Notifications;
+using DE.Application.Models.Dtos.Notifications.Response;
+using DE.Domain.Models.Master;
+using DE.Domain.Models.Notifications;
 using Microsoft.AspNetCore.Http;
-namespace FSC.Application.Queries.Notifications;
+namespace DE.Application.Queries.Notifications;
 
 public record GetNotificationsByUserNameQuery(string UserName, int? PageNumber, int? PageSize, bool? IsNotRead) : IRequest<OperationResult<NotificationsPaginatedResponseDto>>;
 

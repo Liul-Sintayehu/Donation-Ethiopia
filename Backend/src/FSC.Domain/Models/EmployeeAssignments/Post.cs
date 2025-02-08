@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FSC.Domain.Models.EmployeeAssignments;
+namespace DE.Domain.Models.EmployeeAssignments;
 
 public class Post : BaseEntity
 {

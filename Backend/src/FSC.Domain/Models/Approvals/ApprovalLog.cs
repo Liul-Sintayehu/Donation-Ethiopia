@@ -1,8 +1,8 @@
-﻿using FSC.Domain.Models.Assignment;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.Approvals;
+﻿using DE.Domain.Models.Assignment;
+using DE.Domain.Models.Master;
+using DE.Domain.Validator.Approvals;
 
-namespace FSC.Domain.Models.Approvals;
+namespace DE.Domain.Models.Approvals;
 
 public class ApprovalLog : BaseEntity
 {

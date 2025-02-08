@@ -1,7 +1,7 @@
 ﻿
 using OfficeOpenXml;
 
-namespace FSC.API.Extensions
+namespace DE.API.Extensions
 {
     public static class RegistrarExtensions
     {

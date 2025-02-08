@@ -1,11 +1,11 @@
-﻿using FSC.Application.Models.Dtos.Master.Employees;
-using FSC.Application.Services.Helper;
-using FSC.Application.Services.UnitOfWork;
-using FSC.Domain.Models.Master;
+﻿using DE.Application.Models.Dtos.Master.Employees;
+using DE.Application.Services.Helper;
+using DE.Application.Services.UnitOfWork;
+using DE.Domain.Models.Master;
 using Microsoft.AspNetCore.Http;
 using OfficeOpenXml;
 
-namespace FSC.Application.Commands.Master.Employees;
+namespace DE.Application.Commands.Master.Employees;
 
 public record ImportBulkEmployee(IFormFile ExcelFile) : IRequest<OperationResult<List<Employee>>>;
 

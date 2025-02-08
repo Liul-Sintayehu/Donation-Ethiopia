@@ -1,4 +1,4 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FSC.Application.Models.Dots.Master.Employees
+namespace DE.Application.Models.Dots.Master.Employees
 {
     public class EmployeeDto
     {

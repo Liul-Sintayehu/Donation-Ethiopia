@@ -1,7 +1,7 @@
-﻿using FSC.Domain.Helpers;
-using FSC.Domain.Validator.Notifications;
+﻿using DE.Domain.Helpers;
+using DE.Domain.Validator.Notifications;
 
-namespace FSC.Domain.Models.Notifications
+namespace DE.Domain.Models.Notifications
 {
     public class Notification : BaseEntity
     {

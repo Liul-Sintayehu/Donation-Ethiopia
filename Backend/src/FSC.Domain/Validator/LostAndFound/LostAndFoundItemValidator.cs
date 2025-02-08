@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.LostAndFound;
+﻿using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Domain.Validator.LostAndFound
+namespace DE.Domain.Validator.LostAndFound
 {
     public class LostAndFoundItemValidator : AbstractValidator<LostAndFoundItem>
     {

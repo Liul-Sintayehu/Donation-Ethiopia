@@ -1,4 +1,4 @@
-﻿namespace FSC.Domain.Common;
+﻿namespace DE.Domain.Common;
 public enum RecordStatus
 {
     InActive = 1,

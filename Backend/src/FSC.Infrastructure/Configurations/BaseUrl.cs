@@ -1,4 +1,4 @@
-﻿namespace FSC.Infrastructure.Configurations
+﻿namespace DE.Infrastructure.Configurations
 {
     public static  class BaseUrl
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FSC.Application.Models.Dots.Master.AircraftTypes
+namespace DE.Application.Models.Dots.Master.AircraftTypes
 {
     public class AircraftTypeDto
     {

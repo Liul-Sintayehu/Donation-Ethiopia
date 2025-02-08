@@ -1,6 +1,6 @@
-﻿using FSC.Infrastructure.Configurations;
+﻿using DE.Infrastructure.Configurations;
 
-namespace FSC.API.Registrars
+namespace DE.API.Registrars
 {
     public class DbRegistrar : IWebApplicationBuilderRegistrar
     {

@@ -1,4 +1,4 @@
-﻿namespace FSC.API.Resources
+﻿namespace DE.API.Resources
 {
     public class SharedLocalizationResource
     {

@@ -1,4 +1,4 @@
-namespace FSC.AlertEscalationService.Models.Common;
+namespace DE.AlertEscalationService.Models.Common;
 
 public enum RecordStatus
 {

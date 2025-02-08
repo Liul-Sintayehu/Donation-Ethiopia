@@ -1,6 +1,6 @@
-using FSC.API.Controllers.Common;
-using FSC.Application.Queries.Report;
-namespace FSC.API.Controllers.V1._0.Report;
+using DE.API.Controllers.Common;
+using DE.Application.Queries.Report;
+namespace DE.API.Controllers.V1._0.Report;
 
 public class ReportController(IMediator mediator) : BaseController
 {

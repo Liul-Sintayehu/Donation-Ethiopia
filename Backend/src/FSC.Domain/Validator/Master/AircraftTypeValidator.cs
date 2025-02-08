@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Domain.Validator.Master
+namespace DE.Domain.Validator.Master
 {
     public class AircraftTypeValidator : AbstractValidator<AircraftType>
     {

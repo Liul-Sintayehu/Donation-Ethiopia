@@ -1,4 +1,4 @@
-﻿namespace FSC.Application.Models.Dtos.LostAndFound.Request;
+﻿namespace DE.Application.Models.Dtos.LostAndFound.Request;
 
 public class LostAndFoundItemDto
 {

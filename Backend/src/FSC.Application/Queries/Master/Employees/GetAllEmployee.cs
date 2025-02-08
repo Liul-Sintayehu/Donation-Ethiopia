@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Application.Queries.Master.Employees
+namespace DE.Application.Queries.Master.Employees
 {
     public record GetAllEmployee(RecordStatus? RecordStatus, string? Position) : IRequest<OperationResult<List<Employee>>>;
     internal class GetAllEmployeeHandler(IRepositoryBase<Employee> employeeRepo)

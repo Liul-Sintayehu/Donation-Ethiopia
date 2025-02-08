@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System.Net;
 using System.Net.Mail;
 
-namespace FSC.Application.Services.Helper
+namespace DE.Application.Services.Helper
 {
     public interface IEmailSender
     {

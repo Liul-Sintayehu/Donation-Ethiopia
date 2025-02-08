@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Application.Commands.Master.Employees
+namespace DE.Application.Commands.Master.Employees
 {
     public record UpdateStatusEmployee(long Id, RecordStatus RecordStatus) : IRequest<OperationResult<Employee>>;
     internal class UpdateStatusEmployeeHandler(IRepositoryBase<Employee> employeeRepo)

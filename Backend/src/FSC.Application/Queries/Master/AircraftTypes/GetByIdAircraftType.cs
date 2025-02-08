@@ -1,7 +1,7 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 using MediatR;
 
-namespace FSC.Application.Queries.Master.AircraftTypes
+namespace DE.Application.Queries.Master.AircraftTypes
 {
     public record GetByIdAircraftType(long Id) : IRequest<OperationResult<AircraftType>>;
 

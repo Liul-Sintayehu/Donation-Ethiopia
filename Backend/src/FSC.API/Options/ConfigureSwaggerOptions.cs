@@ -1,6 +1,6 @@
 ﻿
 
-namespace FSC.API.Options
+namespace DE.API.Options
 {
     public class ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) : IConfigureOptions<SwaggerGenOptions>
     {

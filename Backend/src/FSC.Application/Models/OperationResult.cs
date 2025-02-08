@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FSC.Application.Models
+namespace DE.Application.Models
 {
     public class OperationResult<T>
     {

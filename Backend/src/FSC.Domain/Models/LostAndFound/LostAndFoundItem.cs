@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.LostAndFound;
+using DE.Domain.Helpers;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Models.Master;
+using DE.Domain.Validator.LostAndFound;
 
-namespace FSC.Domain.Models.LostAndFound;
+namespace DE.Domain.Models.LostAndFound;
 
 public class LostAndFoundItem : BaseEntity
 {

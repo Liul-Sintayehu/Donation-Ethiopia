@@ -1,4 +1,4 @@
-﻿namespace FSC.Application.Services.UnitOfWork
+﻿namespace DE.Application.Services.UnitOfWork
 {
     public class UnitOfWork(ApplicationDbContext dbContext) : IUnitOfWork
     {

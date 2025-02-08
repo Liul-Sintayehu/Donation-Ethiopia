@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FSC.Application.Commands
+namespace DE.Application.Commands
 {
     public class EventLogCreate : IRequest<bool>
     {

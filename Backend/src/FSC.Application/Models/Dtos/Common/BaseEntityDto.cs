@@ -1,4 +1,4 @@
-namespace FSC.Application.Models.Dtos.Common;
+namespace DE.Application.Models.Dtos.Common;
 
 public class BaseEntityDto
 {

@@ -1,10 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.IncidentHandling.Investigations;
-using FSC.Domain.Models.Master;
-using Severity = FSC.Domain.Common.Severity;
+using DE.Domain.Helpers;
+using DE.Domain.Models.IncidentHandling.Investigations;
+using DE.Domain.Models.Master;
+using Severity = DE.Domain.Common.Severity;
 
-namespace FSC.Domain.Models.IncidentHandling.Incidents;
+namespace DE.Domain.Models.IncidentHandling.Incidents;
 
 public abstract class Incident: BaseEntity
 {                 

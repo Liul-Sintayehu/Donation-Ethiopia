@@ -1,4 +1,4 @@
-namespace FSC.Application.Models.Dtos.Notifications.Response;
+namespace DE.Application.Models.Dtos.Notifications.Response;
 
 public class UnreadNotificationsResponseDto
 {

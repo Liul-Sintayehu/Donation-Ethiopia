@@ -1,6 +1,6 @@
-using FSC.Domain.Models.Notifications;
+using DE.Domain.Models.Notifications;
 
-namespace FSC.Application.Queries.Notifications;
+namespace DE.Application.Queries.Notifications;
 
 public record GetDetailNotificationByIdQuery(long Id) : IRequest<OperationResult<Notification>>;
 

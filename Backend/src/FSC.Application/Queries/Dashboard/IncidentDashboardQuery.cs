@@ -1,9 +1,9 @@
-using FSC.Application.Models.Dtos.Dashboard.Request;
-using FSC.Application.Models.Dtos.Dashboard.Response;
-using FSC.Domain.Models.IncidentHandling.Incidents;
-using FSC.Domain.Models.IncidentHandling.Investigations;
+using DE.Application.Models.Dtos.Dashboard.Request;
+using DE.Application.Models.Dtos.Dashboard.Response;
+using DE.Domain.Models.IncidentHandling.Incidents;
+using DE.Domain.Models.IncidentHandling.Investigations;
 
-namespace FSC.Application.Queries.Dashboard;
+namespace DE.Application.Queries.Dashboard;
 
 public record IncidentDashboardQuery(IncidentDashboardRequestDto Dto) : IRequest<OperationResult<List<IncidentDashboardResponseDto>>>;
 

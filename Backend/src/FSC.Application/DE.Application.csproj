@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -28,8 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FSC.Domain\FSC.Domain.csproj" />
-    <ProjectReference Include="..\FSC.Infrastructure\FSC.Infrastructure.csproj" />
+    <ProjectReference Include="..\FSC.Domain\DE.Domain.csproj" />
+    <ProjectReference Include="..\FSC.Infrastructure\DE.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

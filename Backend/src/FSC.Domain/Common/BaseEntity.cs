@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Helpers;
+﻿using DE.Domain.Helpers;
 
-namespace FSC.Domain.Common
+namespace DE.Domain.Common
 {
     public class BaseEntity
     {

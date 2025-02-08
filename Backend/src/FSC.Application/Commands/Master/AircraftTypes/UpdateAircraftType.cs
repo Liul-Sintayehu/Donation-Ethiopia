@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Application.Commands.Master.AircraftTypes
+namespace DE.Application.Commands.Master.AircraftTypes
 {
     public record UpdateAircraftType(long Id, string AircraftTypeCode, string AircraftTypeName) : IRequest<OperationResult<AircraftType>>;
     internal class UpdateAircraftTypeHandler(IRepositoryBase<AircraftType> aircraftTypeRepo)

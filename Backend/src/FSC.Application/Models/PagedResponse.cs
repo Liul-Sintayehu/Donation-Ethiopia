@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FSC.Application.Models;
+namespace DE.Application.Models;
 
 public class PagedResponse<T> : OperationResult<T>
 {

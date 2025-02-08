@@ -1,7 +1,7 @@
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
+using DE.Domain.Helpers;
+using DE.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
 
-namespace FSC.Domain.Validator.IncidentHandling;
+namespace DE.Domain.Validator.IncidentHandling;
 
 public class TheftIncidentValidator: AbstractValidator<TheftIncident>
 {

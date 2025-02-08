@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Assignment;
+﻿using DE.Domain.Models.Assignment;
 
-namespace FSC.Domain.Models.Master
+namespace DE.Domain.Models.Master
 {
     public class FlightSchedule : BaseEntity
     {

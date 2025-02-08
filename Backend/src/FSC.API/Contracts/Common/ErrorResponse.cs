@@ -1,4 +1,4 @@
-﻿namespace FSC.Api.Contracts.Common;
+﻿namespace DE.Api.Contracts.Common;
 
 public class ErrorResponse
 {

@@ -5,15 +5,15 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA8D5CC2-E1C8-4006-B29F-55B3D4E7A454}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSC.API", "src\FSC.API\FSC.API.csproj", "{82B7BAF3-A24B-4ED4-9C37-D669C5D1D072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DE.API", "src\FSC.API\DE.API.csproj", "{82B7BAF3-A24B-4ED4-9C37-D669C5D1D072}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSC.Application", "src\FSC.Application\FSC.Application.csproj", "{4AB95486-6C6C-46AC-81E8-F89DE5FB6A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DE.Application", "src\FSC.Application\DE.Application.csproj", "{4AB95486-6C6C-46AC-81E8-F89DE5FB6A6F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSC.Domain", "src\FSC.Domain\FSC.Domain.csproj", "{DBE4F555-3055-4926-A687-2EB27D2F7701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DE.Domain", "src\FSC.Domain\DE.Domain.csproj", "{DBE4F555-3055-4926-A687-2EB27D2F7701}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSC.Infrastructure", "src\FSC.Infrastructure\FSC.Infrastructure.csproj", "{007CD21D-B689-4BF7-82BA-EBF03ACE59CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DE.Infrastructure", "src\FSC.Infrastructure\DE.Infrastructure.csproj", "{007CD21D-B689-4BF7-82BA-EBF03ACE59CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSC.Service", "src\FSC.Service\FSC.Service.csproj", "{A09E1893-A9C9-4DF6-8B84-D66931433103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DE.Service", "src\FSC.Service\DE.Service.csproj", "{A09E1893-A9C9-4DF6-8B84-D66931433103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

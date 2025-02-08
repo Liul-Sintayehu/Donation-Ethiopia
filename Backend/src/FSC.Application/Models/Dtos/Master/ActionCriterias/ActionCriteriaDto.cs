@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FSC.Application.Models.Dots.Master.ActionCriterias
+namespace DE.Application.Models.Dots.Master.ActionCriterias
 {
     public class ActionCriteriaDto
     {

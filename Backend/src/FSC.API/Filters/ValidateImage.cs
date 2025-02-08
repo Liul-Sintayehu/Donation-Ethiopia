@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FSC.API.Filters;
+namespace DE.API.Filters;
 
 public class AllowedExtensionsAttribute(string[] extensions) : ValidationAttribute
 {

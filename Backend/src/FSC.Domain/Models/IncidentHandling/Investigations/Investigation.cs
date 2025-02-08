@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Helpers;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Models.IncidentHandling.Incidents;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.IncidentHandling;
+using DE.Domain.Helpers;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Models.IncidentHandling.Incidents;
+using DE.Domain.Models.Master;
+using DE.Domain.Validator.IncidentHandling;
 
-namespace FSC.Domain.Models.IncidentHandling.Investigations;
+namespace DE.Domain.Models.IncidentHandling.Investigations;
 
 public class Investigation : BaseEntity
 {

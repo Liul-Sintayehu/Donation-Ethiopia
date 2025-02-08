@@ -1,4 +1,4 @@
-namespace FSC.API.Helpers;
+namespace DE.API.Helpers;
 
 public class Helper
 {

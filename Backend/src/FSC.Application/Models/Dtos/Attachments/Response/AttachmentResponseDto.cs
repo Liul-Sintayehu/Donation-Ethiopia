@@ -1,4 +1,4 @@
-namespace FSC.Application.Models.Dtos.Attachments.Response;
+namespace DE.Application.Models.Dtos.Attachments.Response;
 
 public class AttachmentResponseDto
 {

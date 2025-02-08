@@ -1,22 +1,22 @@
-using FSC.Domain.Models.Approvals;
-using FSC.Domain.Models.Assignment;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Models.EmployeeAssignments;
-using FSC.Domain.Models.IncidentHandling.Incidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.AirCraftIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.InjuryIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
-using FSC.Domain.Models.IncidentHandling.Incidents.VehicleIncidents;
-using FSC.Domain.Models.IncidentHandling.Investigations;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Models.WeaponAlert;
+using DE.Domain.Models.Approvals;
+using DE.Domain.Models.Assignment;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Models.EmployeeAssignments;
+using DE.Domain.Models.IncidentHandling.Incidents;
+using DE.Domain.Models.IncidentHandling.Incidents.AirCraftIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.InjuryIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
+using DE.Domain.Models.IncidentHandling.Incidents.VehicleIncidents;
+using DE.Domain.Models.IncidentHandling.Investigations;
+using DE.Domain.Models.Master;
+using DE.Domain.Models.WeaponAlert;
 using Microsoft.Extensions.Configuration;
-using FSC.Domain.Models.Notifications;
-using FSC.Domain.Models.OffloadBaggages;
-using FSC.Domain.Models.LostAndFound;
+using DE.Domain.Models.Notifications;
+using DE.Domain.Models.OffloadBaggages;
+using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Infrastructure.Context
+namespace DE.Infrastructure.Context
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
     {
@@ -32,7 +32,7 @@ namespace FSC.Infrastructure.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(_configuration.GetConnectionString("FSC"));
+                optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DE"));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

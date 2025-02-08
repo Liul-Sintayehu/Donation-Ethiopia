@@ -1,4 +1,4 @@
-﻿namespace FSC.Domain.Models.Master
+﻿namespace DE.Domain.Models.Master
 {
     public class CostCenter : BaseEntity
     {

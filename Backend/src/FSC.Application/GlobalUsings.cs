@@ -1,10 +1,10 @@
 ﻿global using MediatR;
 global using System.Linq.Expressions;
-global using FSC.Domain.Common;
-global using FSC.Domain.Models;
+global using DE.Domain.Common;
+global using DE.Domain.Models;
 global using Microsoft.EntityFrameworkCore;
-global using FSC.Application.Models;
-global using FSC.Infrastructure.Context;
-global using FSC.Application.Services.GenericRepository;
+global using DE.Application.Models;
+global using DE.Infrastructure.Context;
+global using DE.Application.Services.GenericRepository;
 
-namespace FSC.Application;
+namespace DE.Application;

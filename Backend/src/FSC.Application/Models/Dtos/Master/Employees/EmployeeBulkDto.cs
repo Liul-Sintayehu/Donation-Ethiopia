@@ -1,4 +1,4 @@
-﻿namespace FSC.Application.Models.Dtos.Master.Employees;
+﻿namespace DE.Application.Models.Dtos.Master.Employees;
 
 public class EmployeeBulkDto
 {

@@ -1,11 +1,11 @@
-﻿using FSC.API.Contracts.Common;
-using FSC.API.Controllers.Common;
-using FSC.Application.Commands.Master.Employees;
-using FSC.Application.Models.Dots.Master.Employees;
-using FSC.Application.Models.Dtos.Master.Employees;
-using FSC.Application.Queries.Master.Employees;
+﻿using DE.API.Contracts.Common;
+using DE.API.Controllers.Common;
+using DE.Application.Commands.Master.Employees;
+using DE.Application.Models.Dots.Master.Employees;
+using DE.Application.Models.Dtos.Master.Employees;
+using DE.Application.Queries.Master.Employees;
 
-namespace FSC.API.Controllers.V1._0.Master;
+namespace DE.API.Controllers.V1._0.Master;
 
 public class EmployeeController : BaseController
 {

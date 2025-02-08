@@ -1,6 +1,6 @@
 ﻿//using Microsoft.AspNetCore.Http;
 
-//namespace FSC.Application.Validations
+//namespace DE.Application.Validations
 //{
 //    public class EmployeeValidation
 //    {

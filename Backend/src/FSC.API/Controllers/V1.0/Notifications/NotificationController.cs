@@ -1,8 +1,8 @@
-using FSC.API.Controllers.Common;
-using FSC.Application.Models.Dtos.Notifications.Response;
-using FSC.Application.Queries.Notifications;
+using DE.API.Controllers.Common;
+using DE.Application.Models.Dtos.Notifications.Response;
+using DE.Application.Queries.Notifications;
 
-namespace FSC.API.Controllers.V1._0.Notifications;
+namespace DE.API.Controllers.V1._0.Notifications;
 
 public class NotificationController : BaseController
 {

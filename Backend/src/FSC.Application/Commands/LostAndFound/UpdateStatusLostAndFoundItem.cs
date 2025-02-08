@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.LostAndFound;
+﻿using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Commands.LostAndFound
+namespace DE.Application.Commands.LostAndFound
 {
     public record UpdateStatusLostAndFoundItem(long Id, RecordStatus RecordStatus) : IRequest<OperationResult<LostAndFoundItem>>;
     internal class UpdateStatusLostAndFoundItemHandler(IRepositoryBase<LostAndFoundItem> LostAndFoundItemRepo)

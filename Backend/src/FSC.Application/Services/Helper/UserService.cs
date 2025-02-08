@@ -1,7 +1,7 @@
-using FSC.Domain.Models.Master;
+using DE.Domain.Models.Master;
 using Microsoft.AspNetCore.Http;
 
-namespace FSC.Application.Services.Helper;
+namespace DE.Application.Services.Helper;
 
 public class UserService(IHttpContextAccessor httpContextAccessor, IRepositoryBase<Employee> employeeRepo)
 {

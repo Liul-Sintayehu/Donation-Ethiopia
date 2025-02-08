@@ -1,12 +1,12 @@
 using System.Text;
-using FSC.Application.Services.Helper;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Models.Notifications;
-using FSC.Domain.Models.WeaponAlert;
+using DE.Application.Services.Helper;
+using DE.Domain.Models.Master;
+using DE.Domain.Models.Notifications;
+using DE.Domain.Models.WeaponAlert;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace FSC.Application.Commands.Emails;
+namespace DE.Application.Commands.Emails;
 
 public record SendWeaponAlertEmailCommand(List<Weapon> Weapons, FlightSchedule FlightSchedule, string? Remark)
     : IRequest<OperationResult<bool>>;

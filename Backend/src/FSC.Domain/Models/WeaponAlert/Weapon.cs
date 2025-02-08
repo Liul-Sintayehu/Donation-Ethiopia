@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.WeaponAlert;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Models.Master;
+using DE.Domain.Validator.WeaponAlert;
 
-namespace FSC.Domain.Models.WeaponAlert;
+namespace DE.Domain.Models.WeaponAlert;
 
 public class Weapon : BaseEntity
 {

@@ -1,10 +1,10 @@
-using FSC.Domain.Models.Assignment;
-using FSC.Domain.Models.Master;
+using DE.Domain.Models.Assignment;
+using DE.Domain.Models.Master;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 
-namespace FSC.Application.Queries.Report;
+namespace DE.Application.Queries.Report;
 
 public record GeneratePdfReportCommand(string BackgroundSealImagePath, long ClearanceAssignmentId) : IRequest<OperationResult<byte[]>>;
 

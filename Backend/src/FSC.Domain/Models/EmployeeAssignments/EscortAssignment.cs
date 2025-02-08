@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Models.Master;
+using DE.Domain.Models.Master;
 
-namespace FSC.Domain.Models.EmployeeAssignments;
+namespace DE.Domain.Models.EmployeeAssignments;
 
 public class EscortAssignment : BaseEntity
 {

@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Validator.IncidentHandling;
-using Severity = FSC.Domain.Common.Severity;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Validator.IncidentHandling;
+using Severity = DE.Domain.Common.Severity;
 
-namespace FSC.Domain.Models.IncidentHandling.Incidents.AirCraftIncidents;
+namespace DE.Domain.Models.IncidentHandling.Incidents.AirCraftIncidents;
 
 public class AirCraftIncident : Incident
 {

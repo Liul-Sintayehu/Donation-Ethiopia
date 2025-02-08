@@ -1,6 +1,6 @@
-﻿using FSC.AlertEscalationService.Helpers;
+﻿using DE.AlertEscalationService.Helpers;
 
-namespace FSC.AlertEscalationService.Models.Common;
+namespace DE.AlertEscalationService.Models.Common;
 
 public class BaseEntity
 {

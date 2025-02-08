@@ -1,6 +1,6 @@
-﻿//using FSC.Application.Models.Dtos.EmployeeCustomFields;
+﻿//using DE.Application.Models.Dtos.EmployeeCustomFields;
 
-//namespace FSC.Application.Methods
+//namespace DE.Application.Methods
 //{
 //    public class EmployeeSearch
 //    {

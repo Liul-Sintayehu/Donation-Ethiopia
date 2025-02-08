@@ -1,6 +1,6 @@
-using FSC.Domain.Models.Attachments;
+using DE.Domain.Models.Attachments;
 
-namespace FSC.Domain.Validator.Attachments;
+namespace DE.Domain.Validator.Attachments;
 
 public class AttachmentValidator: AbstractValidator<Attachment>
 {

@@ -1,7 +1,7 @@
 ﻿
-using FSC.Infrastructure.HTTP.Models;
+using DE.Infrastructure.HTTP.Models;
 
-namespace FSC.Infrastructure.HTTP
+namespace DE.Infrastructure.HTTP
 {
     public interface IHttpService : IDisposable
     {

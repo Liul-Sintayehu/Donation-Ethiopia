@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 
-namespace FSC.Application.Services.Helper;
+namespace DE.Application.Services.Helper;
 
 public interface IFileStorageService
 {

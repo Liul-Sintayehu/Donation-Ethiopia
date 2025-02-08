@@ -1,5 +1,5 @@
 ﻿
-namespace FSC.Application.Services.GenericRepository
+namespace DE.Application.Services.GenericRepository
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {

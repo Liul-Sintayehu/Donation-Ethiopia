@@ -1,4 +1,4 @@
-﻿namespace FSC.Application.Services.GenericRepository;
+﻿namespace DE.Application.Services.GenericRepository;
 
 public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
 {

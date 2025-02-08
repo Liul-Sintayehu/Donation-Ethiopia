@@ -1,6 +1,6 @@
-using FSC.Domain.Models.Attachments;
+using DE.Domain.Models.Attachments;
 
-namespace FSC.Application.Commands.Attachments;
+namespace DE.Application.Commands.Attachments;
 
 public record DeleteAttachmentsCommand(long Id) : IRequest<OperationResult<bool>>;
 

@@ -1,4 +1,4 @@
-﻿namespace FSC.API.Filters;
+﻿namespace DE.API.Filters;
 public class ValidateModelAttribute : ActionFilterAttribute
 {
     public override void OnResultExecuting(ResultExecutingContext context)

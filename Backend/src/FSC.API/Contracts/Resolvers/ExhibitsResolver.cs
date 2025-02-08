@@ -1,8 +1,8 @@
 // using System.Text.Json;
-// using FSC.Application.Models.Dtos.IncidentHandling.TheftIncidents.Response;
-// using FSC.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
+// using DE.Application.Models.Dtos.IncidentHandling.TheftIncidents.Response;
+// using DE.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
 //
-// namespace FSC.API.Contracts.Resolvers;
+// namespace DE.API.Contracts.Resolvers;
 //
 // public class ExhibitsResolver: IValueResolver<TheftIncident, TheftIncidentResponseDto, List<ExhibitItem>?>
 // {

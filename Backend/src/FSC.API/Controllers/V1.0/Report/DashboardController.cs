@@ -1,8 +1,8 @@
-using FSC.API.Controllers.Common;
-using FSC.Application.Models.Dtos.Dashboard.Request;
-using FSC.Application.Queries.Dashboard;
+using DE.API.Controllers.Common;
+using DE.Application.Models.Dtos.Dashboard.Request;
+using DE.Application.Queries.Dashboard;
 
-namespace FSC.API.Controllers.V1._0.Report;
+namespace DE.API.Controllers.V1._0.Report;
 
 public class DashboardController: BaseController
 {

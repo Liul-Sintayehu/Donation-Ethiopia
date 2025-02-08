@@ -1,6 +1,6 @@
-using FSC.Domain.Models.IncidentHandling.Investigations;
+using DE.Domain.Models.IncidentHandling.Investigations;
 
-namespace FSC.Domain.Validator.IncidentHandling;
+namespace DE.Domain.Validator.IncidentHandling;
 
 public class InvestigationValidator: AbstractValidator<Investigation>
 {

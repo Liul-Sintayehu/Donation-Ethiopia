@@ -1,8 +1,8 @@
 // using System.Text.Json;
-// using FSC.Application.Models.Dtos.IncidentHandling.BaggageIncidents.Response;
-// using FSC.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
+// using DE.Application.Models.Dtos.IncidentHandling.BaggageIncidents.Response;
+// using DE.Domain.Models.IncidentHandling.Incidents.BaggageIncidents;
 //
-// namespace FSC.API.Contracts.Resolvers;
+// namespace DE.API.Contracts.Resolvers;
 // public class BagsResolver : IValueResolver<BaggageIncident, BaggageIncidentResponseDto, ICollection<BagIdentifier>?>
 // {
 //     public ICollection<BagIdentifier>? Resolve(BaggageIncident source, BaggageIncidentResponseDto destination, ICollection<BagIdentifier>? destMember, ResolutionContext context)

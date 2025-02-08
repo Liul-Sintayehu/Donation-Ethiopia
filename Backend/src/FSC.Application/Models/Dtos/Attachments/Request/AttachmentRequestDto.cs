@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 
-namespace FSC.Application.Models.Dtos.Attachments.Request;
+namespace DE.Application.Models.Dtos.Attachments.Request;
 
 public class AttachmentRequestDto
 {

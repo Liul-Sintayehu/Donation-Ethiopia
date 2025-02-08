@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 
-namespace FSC.Application.Queries.Master.Employees
+namespace DE.Application.Queries.Master.Employees
 {
     public record GetByIdEmployee(long Id) : IRequest<OperationResult<Employee>>;
     internal class GetByIdEmployeeHandler : IRequestHandler<GetByIdEmployee, OperationResult<Employee>>

@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.LostAndFound;
+﻿using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Queries.LostAndFound
+namespace DE.Application.Queries.LostAndFound
 {
     public record GetBySearchLostAndFoundItem(string? itemName, string? referenceNumber) : IRequest<OperationResult<List<LostAndFoundItem>>>;
 

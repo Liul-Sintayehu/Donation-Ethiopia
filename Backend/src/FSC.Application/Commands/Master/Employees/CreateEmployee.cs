@@ -1,7 +1,7 @@
-﻿using FSC.Application.Services.Helper;
-using FSC.Domain.Models.Master;
+﻿using DE.Application.Services.Helper;
+using DE.Domain.Models.Master;
 
-namespace FSC.Application.Commands.Master.Employees;
+namespace DE.Application.Commands.Master.Employees;
 
 public record CreateEmployee(
     string EmployeeId,

@@ -1,13 +1,13 @@
 ﻿using System.Globalization;
-using FSC.Api.Contracts.Common;
-using FSC.API.Controllers.Common;
-using FSC.Application.Commands.LostAndFound;
-using FSC.Application.Commands.LostAndFound.Signature;
-using FSC.Application.Models.Dtos.LostAndFound.Request;
-using FSC.Application.Models.Dtos.LostAndFound.Response;
-using FSC.Application.Queries.LostAndFound;
+using DE.Api.Contracts.Common;
+using DE.API.Controllers.Common;
+using DE.Application.Commands.LostAndFound;
+using DE.Application.Commands.LostAndFound.Signature;
+using DE.Application.Models.Dtos.LostAndFound.Request;
+using DE.Application.Models.Dtos.LostAndFound.Response;
+using DE.Application.Queries.LostAndFound;
 
-namespace FSC.API.Controllers.V1._0.LostAndFound;
+namespace DE.API.Controllers.V1._0.LostAndFound;
 
 public class LostAndFoundItemsController : BaseController
 {

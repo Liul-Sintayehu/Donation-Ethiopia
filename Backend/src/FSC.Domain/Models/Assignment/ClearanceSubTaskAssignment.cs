@@ -1,7 +1,7 @@
-using FSC.Domain.Models.Master;
+using DE.Domain.Models.Master;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FSC.Domain.Models.Assignment;
+namespace DE.Domain.Models.Assignment;
 
 public class ClearanceSubTaskAssignment : BaseEntity
 {

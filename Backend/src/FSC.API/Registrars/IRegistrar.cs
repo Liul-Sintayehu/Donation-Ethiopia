@@ -1,4 +1,4 @@
-﻿namespace FSC.API.Registrars;
+﻿namespace DE.API.Registrars;
     public interface IRegistrar
     {
     }

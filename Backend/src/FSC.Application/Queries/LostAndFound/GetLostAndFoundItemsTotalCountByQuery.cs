@@ -1,7 +1,7 @@
-using FSC.Application.Models.Dtos.LostAndFound.Request;
-using FSC.Domain.Models.LostAndFound;
+using DE.Application.Models.Dtos.LostAndFound.Request;
+using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Queries.LostAndFound;
+namespace DE.Application.Queries.LostAndFound;
 
 public record GetLostAndFoundItemsTotalCountByQuery(GetLostAndFoundItemsQueryDto Dto) : IRequest<OperationResult<int>>;
 

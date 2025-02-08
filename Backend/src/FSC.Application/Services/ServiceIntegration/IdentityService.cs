@@ -1,9 +1,9 @@
-﻿using FSC.Infrastructure.Configurations;
-using FSC.Infrastructure.HTTP;
-using FSC.Infrastructure.HTTP.Models;
+﻿using DE.Infrastructure.Configurations;
+using DE.Infrastructure.HTTP;
+using DE.Infrastructure.HTTP.Models;
 using Microsoft.Extensions.Options;
 
-namespace FSC.Application.Services.ServiceIntegration
+namespace DE.Application.Services.ServiceIntegration
 {
     public interface IIdentityService
     {

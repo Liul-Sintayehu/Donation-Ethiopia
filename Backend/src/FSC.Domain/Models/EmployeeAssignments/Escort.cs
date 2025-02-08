@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.EmployeeAssignments;
+using DE.Domain.Models.Master;
+using DE.Domain.Validator.EmployeeAssignments;
 
-namespace FSC.Domain.Models.EmployeeAssignments;
+namespace DE.Domain.Models.EmployeeAssignments;
 
 public class Escort : BaseEntity
 {

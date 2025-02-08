@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.Assignment;
+﻿using DE.Domain.Models.Assignment;
 
-namespace FSC.Domain.Validator.Assignment
+namespace DE.Domain.Validator.Assignment
 {
     public class FlightClearanceAssignmentValidator : AbstractValidator<FlightClearanceAssignment>
     {

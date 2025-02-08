@@ -1,4 +1,4 @@
-﻿namespace FSC.Application.Models
+﻿namespace DE.Application.Models
 {
     public class IdentityCreateUserDto
     {

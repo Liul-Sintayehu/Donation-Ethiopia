@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Text;
-namespace FSC.Infrastructure.Configurations;
+namespace DE.Infrastructure.Configurations;
 
 public interface ITenant
 {

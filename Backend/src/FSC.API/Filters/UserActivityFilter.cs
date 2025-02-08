@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace FSC.API.Filters
+namespace DE.API.Filters
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class UserActivityFilter : Attribute, IAsyncActionFilter

@@ -1,8 +1,8 @@
-using FSC.Application.Models.Dtos.Dashboard.Response;
-using FSC.Domain.Models.EmployeeAssignments;
-using FSC.Domain.Models.Master;
+using DE.Application.Models.Dtos.Dashboard.Response;
+using DE.Domain.Models.EmployeeAssignments;
+using DE.Domain.Models.Master;
 
-namespace FSC.Application.Queries.Dashboard;
+namespace DE.Application.Queries.Dashboard;
 
 public record MasterDataDashboardQuery : IRequest<OperationResult<MasterDataDashboardResponseDto>>;
 

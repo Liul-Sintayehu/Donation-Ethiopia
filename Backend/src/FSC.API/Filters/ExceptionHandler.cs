@@ -1,4 +1,4 @@
-﻿namespace FSC.API.Filters;
+﻿namespace DE.API.Filters;
 
 public class ExceptionHandler : ExceptionFilterAttribute
 {

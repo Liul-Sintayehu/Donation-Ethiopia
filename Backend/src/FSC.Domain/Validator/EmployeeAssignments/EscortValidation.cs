@@ -1,7 +1,7 @@
-using FSC.Domain.Models.EmployeeAssignments;
-using FSC.Domain.Models.Master;
+using DE.Domain.Models.EmployeeAssignments;
+using DE.Domain.Models.Master;
 
-namespace FSC.Domain.Validator.EmployeeAssignments;
+namespace DE.Domain.Validator.EmployeeAssignments;
 
 public class EscortValidation : AbstractValidator<Escort>
 {

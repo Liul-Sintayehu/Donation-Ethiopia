@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.FileProviders;
 
-namespace FSC.API.Registrars
+namespace DE.API.Registrars
 {
     public class MvcWebAppRegistrar : IWebApplicationRegistrar
     {
@@ -73,7 +73,7 @@ namespace FSC.API.Registrars
             app.MapControllers();
 
             // Root endpoint
-            app.MapGet("/", () => "FSC Service - API");
+            app.MapGet("/", () => "DE Service - API");
         }
     }
 }

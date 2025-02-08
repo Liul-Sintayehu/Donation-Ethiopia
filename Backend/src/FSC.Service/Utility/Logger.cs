@@ -1,4 +1,4 @@
-﻿namespace FSC.Service.Utility
+﻿namespace DE.Service.Utility
 {
     public static class Logger
     {

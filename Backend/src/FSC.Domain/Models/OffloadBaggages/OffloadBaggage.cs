@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using FSC.Domain.Models.Attachments;
-using FSC.Domain.Models.Master;
-using FSC.Domain.Validator.OffloadBaggages;
+using DE.Domain.Models.Attachments;
+using DE.Domain.Models.Master;
+using DE.Domain.Validator.OffloadBaggages;
 
-namespace FSC.Domain.Models.OffloadBaggages;
+namespace DE.Domain.Models.OffloadBaggages;
 
 public class OffloadBaggage : BaseEntity
 {

@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using OfficeOpenXml;
 
-namespace FSC.Application.Commands.Master.Employees
+namespace DE.Application.Commands.Master.Employees
 {
     public record DownloadExcelTemplateEmployee : IRequest<OperationResult<byte[]>>;
     internal class DownloadExcelTemplateEmployeeHandler : IRequestHandler<DownloadExcelTemplateEmployee, OperationResult<byte[]>>

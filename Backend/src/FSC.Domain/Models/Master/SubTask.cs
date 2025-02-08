@@ -1,6 +1,6 @@
-using FSC.Domain.Validator.Master;
+using DE.Domain.Validator.Master;
 
-namespace FSC.Domain.Models.Master;
+namespace DE.Domain.Models.Master;
 
 public class SubTask: BaseEntity
 {

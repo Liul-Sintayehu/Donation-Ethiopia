@@ -1,6 +1,6 @@
-﻿using FSC.Domain.Models.LostAndFound;
+﻿using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Commands.LostAndFound
+namespace DE.Application.Commands.LostAndFound
 {
     public record DeleteLostAndFoundItem(long Id) : IRequest<OperationResult<LostAndFoundItem>>;
     internal class DeletelostAndFoundItemHandler(IRepositoryBase<LostAndFoundItem> lostAndFoundItemRepo)

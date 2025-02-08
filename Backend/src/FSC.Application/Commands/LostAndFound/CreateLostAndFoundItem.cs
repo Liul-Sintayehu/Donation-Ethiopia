@@ -1,7 +1,7 @@
-﻿using FSC.Application.Models.Dtos.LostAndFound.Request;
-using FSC.Domain.Models.LostAndFound;
+﻿using DE.Application.Models.Dtos.LostAndFound.Request;
+using DE.Domain.Models.LostAndFound;
 
-namespace FSC.Application.Commands.LostAndFound;
+namespace DE.Application.Commands.LostAndFound;
 
 public record CreateLostAndFoundItem(LostAndFoundItemDto Dto) : IRequest<OperationResult<LostAndFoundItem>>;
 

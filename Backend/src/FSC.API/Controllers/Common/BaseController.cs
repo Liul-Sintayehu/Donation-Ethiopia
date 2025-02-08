@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace FSC.API.Controllers.Common;
+namespace DE.API.Controllers.Common;
 
 [ApiVersion("1.0")]
 [Route("api/v{version:apiVersion}/[controller]")]

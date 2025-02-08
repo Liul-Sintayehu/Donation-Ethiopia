@@ -1,4 +1,4 @@
-namespace FSC.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
+namespace DE.Domain.Models.IncidentHandling.Incidents.TheftIncidents;
 
 public class ExhibitItem
 {

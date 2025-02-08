@@ -1,7 +1,7 @@
-﻿using FSC.Domain.Models.Master;
+﻿using DE.Domain.Models.Master;
 using MediatR;
 
-namespace FSC.Application.Commands.AircraftTypes
+namespace DE.Application.Commands.AircraftTypes
 {
     public record DeleteAircraftType(long id) : IRequest<OperationResult<AircraftType>>;
     internal class DeleteAircraftTypeHandler(IRepositoryBase<AircraftType> aircraftTypeRepo)

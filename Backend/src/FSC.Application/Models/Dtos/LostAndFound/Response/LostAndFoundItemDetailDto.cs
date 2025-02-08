@@ -1,7 +1,7 @@
-﻿using FSC.Application.Models.Dtos.Attachments.Response;
-using FSC.Application.Models.Dtos.Master.Employees;
+﻿using DE.Application.Models.Dtos.Attachments.Response;
+using DE.Application.Models.Dtos.Master.Employees;
 
-namespace FSC.Application.Models.Dtos.LostAndFound.Response;
+namespace DE.Application.Models.Dtos.LostAndFound.Response;
 
 public class LostAndFoundItemDetailDto
 {

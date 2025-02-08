@@ -1,18 +1,18 @@
-// using FSC.Application.Models.Dots.Assignments.FlightClearanceAssignments.Response;
-// using FSC.Application.Models.Dots.Assignments.FlightScheduleMajorTasks.Response;
-// using FSC.Application.Models.Dots.Master.Positions;
-// using FSC.Application.Models.Dots.Master.SubTasks;
-// using FSC.Application.Models.Dtos.Approvals.Response;
-// using FSC.Application.Models.Dtos.Assignments.FlightScheduleMajorTasks.Response;
-// using FSC.Application.Models.Dtos.Master.Employees;
-// using FSC.Application.Models.Dtos.Master.FlightSchedules;
-// using FSC.Application.Models.Dtos.Master.MajorTasks;
-// using FSC.Application.Models.Dtos.Master.SubTasks;
-// using FSC.Domain.Models.Approvals;
-// using FSC.Domain.Models.Assignment;
-// using FSC.Domain.Models.Master;
+// using DE.Application.Models.Dots.Assignments.FlightClearanceAssignments.Response;
+// using DE.Application.Models.Dots.Assignments.FlightScheduleMajorTasks.Response;
+// using DE.Application.Models.Dots.Master.Positions;
+// using DE.Application.Models.Dots.Master.SubTasks;
+// using DE.Application.Models.Dtos.Approvals.Response;
+// using DE.Application.Models.Dtos.Assignments.FlightScheduleMajorTasks.Response;
+// using DE.Application.Models.Dtos.Master.Employees;
+// using DE.Application.Models.Dtos.Master.FlightSchedules;
+// using DE.Application.Models.Dtos.Master.MajorTasks;
+// using DE.Application.Models.Dtos.Master.SubTasks;
+// using DE.Domain.Models.Approvals;
+// using DE.Domain.Models.Assignment;
+// using DE.Domain.Models.Master;
 //
-// namespace FSC.Application.Mappers;
+// namespace DE.Application.Mappers;
 //
 // public static class Mapper
 // {
